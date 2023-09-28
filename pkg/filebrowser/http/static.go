@@ -12,9 +12,9 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/auth"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/settings"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/storage"
+	"github.com/kittizz/putes/pkg/filebrowser/auth"
+	"github.com/kittizz/putes/pkg/filebrowser/settings"
+	"github.com/kittizz/putes/pkg/filebrowser/storage"
 )
 
 func handleWithStaticData(w http.ResponseWriter, _ *http.Request, d *data, fSys fs.FS, file, contentType string) (int, error) {

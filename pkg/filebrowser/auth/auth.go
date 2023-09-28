@@ -3,8 +3,8 @@ package auth
 import (
 	"net/http"
 
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/settings"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/users"
+	"github.com/kittizz/putes/pkg/filebrowser/settings"
+	"github.com/kittizz/putes/pkg/filebrowser/users"
 )
 
 // Auther is the authentication interface.

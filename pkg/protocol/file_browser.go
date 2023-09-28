@@ -3,7 +3,7 @@ package protocol
 import (
 	"github.com/spf13/viper"
 
-	fcmd "github.com/kittizz/reverse-shell/pkg/filebrowser/cmd"
+	fcmd "github.com/kittizz/putes/pkg/filebrowser/cmd"
 )
 
 func (c *Connection) onFileBrowserOpen(pdu *FileBrowserOpen) {

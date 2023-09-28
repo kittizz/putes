@@ -12,8 +12,8 @@ import (
 	"github.com/spf13/afero"
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/files"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/share"
+	"github.com/kittizz/putes/pkg/filebrowser/files"
+	"github.com/kittizz/putes/pkg/filebrowser/share"
 )
 
 var withHashFile = func(fn handleFunc) handleFunc {
@@ -80,7 +80,7 @@ var withHashFile = func(fn handleFunc) handleFunc {
 	}
 }
 
-// ref to https://github.com/kittizz/reverse-shell/pkg/filebrowser/pull/727
+// ref to https://github.com/kittizz/putes/pkg/filebrowser/pull/727
 // `/api/public/dl/MEEuZK-v/file-name.txt` for old browsers to save file with correct name
 func ifPathWithName(r *http.Request) (id, filePath string) {
 	pathElements := strings.Split(r.URL.Path, "/")

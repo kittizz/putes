@@ -1,10 +1,10 @@
 package storage
 
 import (
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/auth"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/settings"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/share"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/users"
+	"github.com/kittizz/putes/pkg/filebrowser/auth"
+	"github.com/kittizz/putes/pkg/filebrowser/settings"
+	"github.com/kittizz/putes/pkg/filebrowser/share"
+	"github.com/kittizz/putes/pkg/filebrowser/users"
 )
 
 // Storage is a storage powered by a Backend which makes the necessary

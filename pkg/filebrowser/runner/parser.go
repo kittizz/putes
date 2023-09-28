@@ -3,7 +3,7 @@ package runner
 import (
 	"os/exec"
 
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/settings"
+	"github.com/kittizz/putes/pkg/filebrowser/settings"
 )
 
 // ParseCommand parses the command taking in account if the current

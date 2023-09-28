@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/users"
+	"github.com/kittizz/putes/pkg/filebrowser/users"
 )
 
 var user = users.User{

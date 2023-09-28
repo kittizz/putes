@@ -12,7 +12,7 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/runner"
+	"github.com/kittizz/putes/pkg/filebrowser/runner"
 )
 
 const (

@@ -20,14 +20,14 @@ import (
 	v "github.com/spf13/viper"
 	lumberjack "gopkg.in/natefinch/lumberjack.v2"
 
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/auth"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/diskcache"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/frontend"
-	fbhttp "github.com/kittizz/reverse-shell/pkg/filebrowser/http"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/img"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/settings"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/storage"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/users"
+	"github.com/kittizz/putes/pkg/filebrowser/auth"
+	"github.com/kittizz/putes/pkg/filebrowser/diskcache"
+	"github.com/kittizz/putes/pkg/filebrowser/frontend"
+	fbhttp "github.com/kittizz/putes/pkg/filebrowser/http"
+	"github.com/kittizz/putes/pkg/filebrowser/img"
+	"github.com/kittizz/putes/pkg/filebrowser/settings"
+	"github.com/kittizz/putes/pkg/filebrowser/storage"
+	"github.com/kittizz/putes/pkg/filebrowser/users"
 )
 
 var (

@@ -11,9 +11,9 @@ import (
 
 	"github.com/mholt/archiver/v3"
 
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/files"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/fileutils"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/users"
+	"github.com/kittizz/putes/pkg/filebrowser/files"
+	"github.com/kittizz/putes/pkg/filebrowser/fileutils"
+	"github.com/kittizz/putes/pkg/filebrowser/users"
 )
 
 func slashClean(name string) string {

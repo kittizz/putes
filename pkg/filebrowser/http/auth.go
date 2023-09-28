@@ -11,8 +11,8 @@ import (
 	"github.com/golang-jwt/jwt/v4"
 	"github.com/golang-jwt/jwt/v4/request"
 
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/errors"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/users"
+	"github.com/kittizz/putes/pkg/filebrowser/errors"
+	"github.com/kittizz/putes/pkg/filebrowser/users"
 )
 
 const (

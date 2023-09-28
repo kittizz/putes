@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/rules"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/settings"
+	"github.com/kittizz/putes/pkg/filebrowser/rules"
+	"github.com/kittizz/putes/pkg/filebrowser/settings"
 )
 
 type settingsData struct {

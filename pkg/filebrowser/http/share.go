@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/errors"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/share"
+	"github.com/kittizz/putes/pkg/filebrowser/errors"
+	"github.com/kittizz/putes/pkg/filebrowser/share"
 	"golang.org/x/crypto/bcrypt"
 )
 

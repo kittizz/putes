@@ -3,7 +3,7 @@ package share
 import (
 	"time"
 
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/errors"
+	"github.com/kittizz/putes/pkg/filebrowser/errors"
 )
 
 // StorageBackend is the interface to implement for a share storage.

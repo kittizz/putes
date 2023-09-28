@@ -1,11 +1,11 @@
 package memory
 
 import (
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/auth"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/settings"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/share"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/storage"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/users"
+	"github.com/kittizz/putes/pkg/filebrowser/auth"
+	"github.com/kittizz/putes/pkg/filebrowser/settings"
+	"github.com/kittizz/putes/pkg/filebrowser/share"
+	"github.com/kittizz/putes/pkg/filebrowser/storage"
+	"github.com/kittizz/putes/pkg/filebrowser/users"
 )
 
 // NewStorage creates a storage.Storage based on Bolt DB.

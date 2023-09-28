@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/kittizz/reverse-shell/pkg/compress"
+	"github.com/kittizz/putes/pkg/compress"
 )
 
 const (

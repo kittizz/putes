@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	libErrors "github.com/kittizz/reverse-shell/pkg/filebrowser/errors"
+	libErrors "github.com/kittizz/putes/pkg/filebrowser/errors"
 )
 
 func renderJSON(w http.ResponseWriter, _ *http.Request, data interface{}) (int, error) {

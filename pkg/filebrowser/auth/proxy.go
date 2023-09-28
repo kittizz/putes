@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/errors"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/settings"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/users"
+	"github.com/kittizz/putes/pkg/filebrowser/errors"
+	"github.com/kittizz/putes/pkg/filebrowser/settings"
+	"github.com/kittizz/putes/pkg/filebrowser/users"
 )
 
 // MethodProxyAuth is used to identify no auth.

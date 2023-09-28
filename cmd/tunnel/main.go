@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/kittizz/reverse-shell/pkg/protocol"
+	"github.com/kittizz/putes/pkg/protocol"
 )
 
 func main() {

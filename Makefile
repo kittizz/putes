@@ -7,8 +7,8 @@ server:
 
 client:
 	# CGO_ENABLED=0 GOOS=darwin GOARCH=arm64 $(BUILD_TOOL) build $(BUILD_FLAG) -o bin/client-darwin cmd/client/*.go
-	# CGO_ENABLED=0 GOOS=linux GOARCH=amd64 $(BUILD_TOOL) build $(BUILD_FLAG) -o bin/core cmd/client/*.go
-	CGO_ENABLED=0 GOOS=windows GOARCH=amd64 $(BUILD_TOOL) build -ldflags="-w -s -H=windowsgui" -o bin/client-win.exe cmd/client/*.go
+	CGO_ENABLED=0 GOOS=linux GOARCH=amd64 $(BUILD_TOOL) build $(BUILD_FLAG) -o bin/core cmd/client/main.go cmd/client/hconsole.go
+	CGO_ENABLED=0 GOOS=windows GOARCH=amd64 $(BUILD_TOOL) build -ldflags="-w -s -H windowsgui" -o bin/client-win.exe  cmd/client/main.go cmd/client/hconsole_windows.go
 compression:
 	upx --lzma -o bin/setup.exe bin/client-win.exe -f
 chmod:

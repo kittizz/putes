@@ -8,8 +8,8 @@ import (
 	"runtime"
 	"strconv"
 
-	"github.com/kittizz/reverse-shell/pkg/cert"
-	"github.com/kittizz/reverse-shell/pkg/protocol"
+	"github.com/kittizz/putes/pkg/cert"
+	"github.com/kittizz/putes/pkg/protocol"
 )
 
 func main() {

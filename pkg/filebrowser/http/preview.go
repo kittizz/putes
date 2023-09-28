@@ -10,8 +10,8 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/files"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/img"
+	"github.com/kittizz/putes/pkg/filebrowser/files"
+	"github.com/kittizz/putes/pkg/filebrowser/img"
 )
 
 /*

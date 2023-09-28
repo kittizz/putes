@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/search"
+	"github.com/kittizz/putes/pkg/filebrowser/search"
 )
 
 var searchHandler = withUser(func(w http.ResponseWriter, r *http.Request, d *data) (int, error) {

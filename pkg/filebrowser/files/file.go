@@ -19,8 +19,8 @@ import (
 
 	"github.com/spf13/afero"
 
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/errors"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/rules"
+	"github.com/kittizz/putes/pkg/filebrowser/errors"
+	"github.com/kittizz/putes/pkg/filebrowser/rules"
 )
 
 const PermFile = 0664

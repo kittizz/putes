@@ -1,8 +1,8 @@
 package settings
 
 import (
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/files"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/users"
+	"github.com/kittizz/putes/pkg/filebrowser/files"
+	"github.com/kittizz/putes/pkg/filebrowser/users"
 )
 
 // UserDefaults is a type that holds the default values

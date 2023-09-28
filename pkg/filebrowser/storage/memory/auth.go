@@ -1,8 +1,8 @@
 package memory
 
 import (
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/auth"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/settings"
+	"github.com/kittizz/putes/pkg/filebrowser/auth"
+	"github.com/kittizz/putes/pkg/filebrowser/settings"
 )
 
 type authBackend struct {

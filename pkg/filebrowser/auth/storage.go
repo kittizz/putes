@@ -1,8 +1,8 @@
 package auth
 
 import (
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/settings"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/users"
+	"github.com/kittizz/putes/pkg/filebrowser/settings"
+	"github.com/kittizz/putes/pkg/filebrowser/users"
 )
 
 // StorageBackend is a storage backend for auth storage.

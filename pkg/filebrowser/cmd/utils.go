@@ -5,9 +5,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/settings"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/storage"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/storage/memory"
+	"github.com/kittizz/putes/pkg/filebrowser/settings"
+	"github.com/kittizz/putes/pkg/filebrowser/storage"
+	"github.com/kittizz/putes/pkg/filebrowser/storage/memory"
 )
 
 func checkErr(err error) {

@@ -14,9 +14,9 @@ import (
 	"github.com/shirou/gopsutil/v3/disk"
 	"github.com/spf13/afero"
 
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/errors"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/files"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/fileutils"
+	"github.com/kittizz/putes/pkg/filebrowser/errors"
+	"github.com/kittizz/putes/pkg/filebrowser/files"
+	"github.com/kittizz/putes/pkg/filebrowser/fileutils"
 )
 
 var resourceGetHandler = withUser(func(w http.ResponseWriter, r *http.Request, d *data) (int, error) {

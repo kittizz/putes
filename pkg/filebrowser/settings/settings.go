@@ -4,7 +4,7 @@ import (
 	"crypto/rand"
 	"strings"
 
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/rules"
+	"github.com/kittizz/putes/pkg/filebrowser/rules"
 )
 
 const DefaultUsersHomeBasePath = "/users"

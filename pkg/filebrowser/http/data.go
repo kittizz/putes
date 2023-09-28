@@ -7,11 +7,11 @@ import (
 
 	"github.com/tomasen/realip"
 
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/rules"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/runner"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/settings"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/storage"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/users"
+	"github.com/kittizz/putes/pkg/filebrowser/rules"
+	"github.com/kittizz/putes/pkg/filebrowser/runner"
+	"github.com/kittizz/putes/pkg/filebrowser/settings"
+	"github.com/kittizz/putes/pkg/filebrowser/storage"
+	"github.com/kittizz/putes/pkg/filebrowser/users"
 )
 
 type handleFunc func(w http.ResponseWriter, r *http.Request, d *data) (int, error)

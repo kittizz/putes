@@ -1,7 +1,7 @@
 package memory
 
 import (
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/settings"
+	"github.com/kittizz/putes/pkg/filebrowser/settings"
 )
 
 var sv = &settings.Server{

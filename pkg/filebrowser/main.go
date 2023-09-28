@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/cmd"
+	"github.com/kittizz/putes/pkg/filebrowser/cmd"
 )
 
 func main() {

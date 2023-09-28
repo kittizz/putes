@@ -1,9 +1,9 @@
 package settings
 
 import (
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/errors"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/rules"
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/users"
+	"github.com/kittizz/putes/pkg/filebrowser/errors"
+	"github.com/kittizz/putes/pkg/filebrowser/rules"
+	"github.com/kittizz/putes/pkg/filebrowser/users"
 )
 
 // StorageBackend is a settings storage backend.

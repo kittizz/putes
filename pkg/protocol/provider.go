@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/kittizz/reverse-shell/pkg/command"
+	"github.com/kittizz/putes/pkg/command"
 )
 
 type Handle = uint32

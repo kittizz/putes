@@ -1,7 +1,7 @@
 package memory
 
 import (
-	"github.com/kittizz/reverse-shell/pkg/filebrowser/share"
+	"github.com/kittizz/putes/pkg/filebrowser/share"
 )
 
 type shareBackend struct {
