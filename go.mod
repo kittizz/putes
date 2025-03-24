@@ -7,8 +7,7 @@ require (
 	github.com/dsoprea/go-exif/v3 v3.0.1
 	github.com/flynn/go-shlex v0.0.0-20150515145356-3f9db97f8568
 	github.com/gofiber/fiber/v2 v2.49.2
-	github.com/golang-jwt/jwt/v4 v4.5.0
-	github.com/gonutz/w32/v2 v2.10.0
+	github.com/golang-jwt/jwt/v4 v4.5.2
 	github.com/gorilla/mux v1.8.0
 	github.com/gorilla/websocket v1.5.0
 	github.com/maruel/natural v1.1.0
